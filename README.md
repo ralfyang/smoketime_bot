@@ -12,7 +12,7 @@ pip install pyTelegramBotAPI
 3. 토큰 키 발급
 4. smoking_bot.py open
  ``` vi smoking_bot.py```
-5. 3에서 발급받은 토큰티 입력 
+5. 3에서 발급받은 토큰키 입력 
 ```
 API_TOKEN = '<ADD YOUR TOKEN KEY HERE>'
 ```
@@ -20,7 +20,7 @@ API_TOKEN = '<ADD YOUR TOKEN KEY HERE>'
 * 모여서 담배 필 장소 메시지 변경
 ```
     bot.reply_to(message, """\
-It's time to Smoke!!! let's go 장소명 \
+It's time to Smoke!!! let's go 장보명 \
 """)
 ```
 
