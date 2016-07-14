@@ -20,7 +20,7 @@ API_TOKEN = '<ADD YOUR TOKEN KEY HERE>'
 * 모여서 담배 필 장소 메시지 변경
 ```
     bot.reply_to(message, """\
-It's time to Smoke!!! let's go 장보명 \
+It's time to Smoke!!! let's go 장소명 \
 """)
 ```
 
