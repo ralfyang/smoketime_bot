@@ -1,4 +1,4 @@
-# smoketime_bot
+# 담배 맴버들 모여라! 같이가자!
 * This is a folk version of pyTelegramBot API(https://github.com/eternnoir/pyTelegramBotAPI)
 
 * Requires Pythone, telebot lib of python
