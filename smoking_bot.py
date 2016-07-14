@@ -21,14 +21,14 @@ or
 @bot.message_handler(commands=['down'])
 def send_welcome(message):
     bot.reply_to(message, """\
-It's time to Smoke!!! let's go 1st fl. of Gangseo N Tower\
+It's time to Smoke!!! let's go to smoking-area of 1st fl.\
 """)
 
 
 @bot.message_handler(commands=['up'])
 def send_welcome(message):
     bot.reply_to(message, """\
-It's time to Smoke!!! let's go 8th fl. of Gangseo N Tower\
+It's time to Smoke!!! let's go to roof garden!! \
 """)
 
 @bot.message_handler(commands=['stop'])
