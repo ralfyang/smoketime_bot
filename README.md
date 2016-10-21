@@ -4,6 +4,7 @@
 * Requires Python, telebot lib of python
 ```
 pip install pyTelegramBotAPI
+pip install  telebot
 ```
 
 
