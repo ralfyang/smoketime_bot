@@ -3,8 +3,11 @@
 
 * Requires Python, telebot lib of python
 ```
-pip install pyTelegramBotAPI
-pip install  telebot
+git clone https://github.com/goody80/smoketime_bot.git
+sudo pip install pyTelegramBotAPI
+sudo pip install  telebot
+cd smoketime_bot
+sudo pip install -r requirements.txt
 ```
 
 
