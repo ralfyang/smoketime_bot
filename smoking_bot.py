@@ -3,7 +3,7 @@
 
 import telebot
 
-API_TOKEN = '<ADD YOUR TOKEN KEY HERE>'
+API_TOKEN = 'YOUR API TOKEN HERE'
 
 bot = telebot.TeleBot(API_TOKEN)
 
@@ -13,22 +13,22 @@ def send_welcome(message):
     bot.reply_to(message, """\
 It's time to Smoke!!! \n
 You can type \n
-/up for 8th fl. \n
+/go for Out of office \n
 or 
-/down for 1st fl.\n
+/down for B1 fl.\n
 """)
+
+@bot.message_handler(commands=['go'])
+def send_welcome(message):
+    bot.reply_to(message, """\
+Let's go for smoking to Out there\
+""")
+
 
 @bot.message_handler(commands=['down'])
 def send_welcome(message):
     bot.reply_to(message, """\
-It's time to Smoke!!! let's go to smoking-area of 1st fl.\
-""")
-
-
-@bot.message_handler(commands=['up'])
-def send_welcome(message):
-    bot.reply_to(message, """\
-It's time to Smoke!!! let's go to roof garden!! \
+Let's go for smoking to B1 place!! \
 """)
 
 @bot.message_handler(commands=['stop'])
